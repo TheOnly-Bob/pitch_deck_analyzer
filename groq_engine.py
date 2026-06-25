@@ -69,7 +69,7 @@ Benchmark B: Generic AI Startup (Low Fidelity)
 
 def evaluate_deck(client: Groq, deck_text: str) -> PitchDeckEvaluation:
     schema_str = json.dumps(PitchDeckEvaluation.model_json_schema(), indent=2)
-    system_prompt = f"{SYSTEM_EVALUATION_PROFILE}\n\nEnforce schema validation:\n{schema_str}"
+    system_prompt = f"{SYSTEM_EVALUATION_PROFILE}\n\nEnforce strict JSON schema validation:\n{schema_str}"
     
     response = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
