@@ -30,7 +30,7 @@ if st.button("Evaluate"):
     else:
         with st.spinner("Evaluating deck against VC rubric..."):
             try:
-                client = get_client("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")
+                client = get_client(st.secrets["GROQ_API_KEY"])
                 st.session_state.last_result = evaluate_deck(client, final_text)
             except json.JSONDecodeError:
                 st.error("The model returned output that didn't match the expected format. Try again.")
