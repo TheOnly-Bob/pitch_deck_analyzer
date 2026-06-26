@@ -55,8 +55,8 @@ BOUNDARY CONDITIONS:
 
 CALIBRATION BENCHMARKS:
 
-Benchmark A: Airbnb 2008 (High Fidelity)
-- Excerpt: "Problem: Price is a concern. Hotels leave you disconnected from the city. Solution: A web platform where users can rent out their space to host travelers."
+Benchmark A: YouTube 2005 (High Fidelity)
+- Excerpt: "Problem: Video files are too large to e-mail. Video codecs and formats are complex. Solution: A centralized platform to easily upload, tag, and share videos globally."
 - Output Mapping: Problem-Solution Fit (5/5); Narrative & Storytelling (5/5). 
 - Verdict Output: Strong Pass
 
