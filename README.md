@@ -1,5 +1,7 @@
 # 🚀 Pitch Deck Analyzer MVP
 
+**[Live Demo](https://pitchdeckanalyzer-gbza3gwtcbhyw84wqtepnz.streamlit.app/)**
+
 An automated, hallucination-resistant venture capital screening tool built for a 48-hour technical challenge.
 
 ## 🧠 Architecture Overview
